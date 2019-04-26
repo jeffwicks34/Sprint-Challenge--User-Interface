@@ -67,7 +67,7 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -120,6 +120,7 @@ p {
 footer {
     width: 100%;
     background: black;
+    margin-top: 20px;
 }
 
 footer nav {
@@ -269,4 +270,44 @@ footer nav a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* about page */
+
+img.jumbo-about {
+    width: 100%;
+    margin-top: 20px;
+}
+
+hr {
+    border: 1px dashed black;
+}
+
+.card-group {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.card {
+    width: 48%;
+    margin-bottom: 20px;
+    
+
+}
+
+.card img {
+    margin-bottom: 20px;
+}
+
+button {
+    width: 125px;
+    height: 30px;
+    background: white;
+    border: 1px solid black;
+    color: black;
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
